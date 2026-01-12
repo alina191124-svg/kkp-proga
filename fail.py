@@ -10,3 +10,8 @@ for i in range(len(n)-1):
         if s<summ:
             s=summ
 print(k,s)  
+
+
+
+with open('','w') as f:
+    f.write('\n')
