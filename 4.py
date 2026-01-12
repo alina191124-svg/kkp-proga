@@ -1,11 +1,11 @@
 N=int(input())
-A=list(map(int, input().split()))
-maxx= A[0]
-for i in range(1,N):
-    if A[i]>maxx:
-        maxx=A[i]
-count=0
+mi=10000000000000000000000000000000000
+ma=0
 for i in range(N):
-    if A[i]==maxx:
-        count+=1
-print(maxx, count)
+    n=int(input())
+    if n%2==0 and n>0:
+        if n<mi:
+            mi=n 
+        if n>ma:
+            ma=n 
+print(mi,ma)
