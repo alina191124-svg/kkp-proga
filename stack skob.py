@@ -17,3 +17,4 @@ if len(st)==0 and flag:
     print('YES')
 else:
     print('NO')
+    

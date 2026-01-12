@@ -1,6 +1,8 @@
 def IsPrime(n, d=3):
-    if d * d > n:
+    if d*d>n:
         return True
+    if n%2==0:
+        return False
     if n % d == 0:
         return False
     return IsPrime(n, d + 2)
